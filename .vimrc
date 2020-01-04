@@ -31,6 +31,17 @@ set mouse=a
 " Keep your cursor centered at least 10 lines from bottom
 set scrolloff=10
 
+call plug#begin('~/.vim/plugged')
+
+Plug '/usr/local/opt/fzf'
+Plug '~/.vim/fzf.vim'
+
+call plug#end()
+
+" Key mapping for FZF plugin
+nmap <leader>B :Buffers<CR>
+nmap <leader>F :Files<CR>
+
 " vimwiki/vimwiki
 " Vimwiki Folding
 " let g:vimwiki_folding='syntax'
