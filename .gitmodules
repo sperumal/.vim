@@ -7,3 +7,6 @@
 [submodule "/Users/sudhperu/.vim/bundle/vim-airline"]
 	path = /Users/sudhperu/.vim/bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "bundle/vimwiki"]
+	path = bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git

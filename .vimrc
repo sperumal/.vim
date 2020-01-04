@@ -31,3 +31,8 @@ set mouse=a
 " Keep your cursor centered at least 10 lines from bottom
 set scrolloff=10
 
+" vimwiki/vimwiki
+" Vimwiki Folding
+" let g:vimwiki_folding='syntax'
+" let g:vimwiki_global_ext = 0
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
